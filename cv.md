@@ -9,3 +9,15 @@
 * performing various invasive and non-invasive procedures (for humans and animals)
 * providing first aid to people (there is a certificate of completion of the course)
 * interaction with chemicals, substances and laboratory facilities
+* Basics HTML/CSS
+## Code examples
+----
+## Work experience
+>8 months in a veterinary clinic. Assisted in surgeries, ultrasound / X-ray, at the therapist, performed various procedures (injections, infusion therapy, treatment and stitching of wounds, etc.), worked in a day hospital, prepared equipment (and animals) for operations. She also performed the functions of an administrator and kept records of medicines.
+>3 months technical copywriter.
+Created pages with information about products (gas chromatographs and their components) based on English-language official sources from the equipment manufacturer.
+>No experience in Web Development.
+## Education 
+>Incomplete higher education. Undergraduate Russian Chemical Technology University D.I. Mendeleev at the Faculty of Natural Sciences. 
+## English language
+>Entry level A1
