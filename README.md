@@ -1,1 +1,1 @@
-https://ignisvulpe.github.io/rsschool-cv/cv
+https://ignisvulpe.github.io/rsschool-cv/
