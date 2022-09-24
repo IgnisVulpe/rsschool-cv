@@ -1,6 +1,4 @@
 # Kondrina Darya Alexandrovna
-## Avatar
-<img src="./img/Avatar.jpg" alt="Аватар Дарьи">
 ## Personal data
 * 89876667688
 * PochtaDasha@gmail.com
