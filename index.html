@@ -40,78 +40,112 @@
                 </nav>
             </div>
         </header>
-
         <main class="main">
-            <section class="section-profile" id="profile">
-                <img src="assets/img/Avatar.jpg" alt="Аватар Дарьи" width="506" height="540">
-                <div class="title-profile">
-                    <h1 class="section-mine-title">Kondrina Darya Alexandrovna</h1>
-                    <h3 class="section-subtitle">Junior Front-End Developer</h3>
-                </div>
-            </section>
+            <div class="container-div-main">
+                <section class="section-profile" id="profile">
+                    <img src="assets/img/avatar.jpg" alt="Аватар Дарьи" width="280" height="380">
+                    <div class="title-profile">
+                        <h1 class="section-mine-title">Kondrina Darya Alexandrovna</h1>
+                        <h3 class="section-subtitle">Junior Front-End Developer</h3>
+                    </div>
+                </section>
+                <section class="section" id="contacts">
+                    <h2 class="section-title">Contacts</h2>
+                    <ul>
+                        <li class="contacts-list">
+                            <p>Glazov, Russia</p>
+                        </li>
 
-            <section class="section" id="contacts">
-                <h2 class="section-title">Contacts</h2>
-                <ul>
-                    <li class="contacts-list">
-                        <p>Glazov, Russia</p>
-                    </li>
+                        <li class="contacts-list">
+                            <p>Number: 89876667688</p>
+                        </li>
 
-                    <li class="contacts-list">
-                        <p>Email: pochtaDasha@gmail.com</p>
-                    </li>
+                        <li class="contacts-list">
+                            <p>Email: <a href="pochtaDasha@gmail.com" title="email">pochtaDasha@gmail.com</a></p>
+                        </li>
 
-                    <li class="contacts-list">
-                        <p>Nunber: 89876667688</p>
-                    </li>
+                        <li class="contacts-list">
+                            <p>Github: <a href="https://github.com/IgnisVulpe" title="github">IgnisVulpe</a></p>
+                        </li>
+                    </ul>
+                </section>
+                <section class="section" id="about-me">
+                    <h2 class="section-title">About me</h2>
+                    <p>
+                        I live in Moscow, I am a 4th year undergraduate student at the Russian Chemical Technology
+                        University D.I. Mendeleev at the Faculty of Natural Sciences. Now I am interested in web
+                        development and therefore I am looking for a remote job in this area.Before that, I worked
+                        temporarily in a veterinary clinic as an assistant to a veterinarian, this is a kind of hobby. I
+                        am also a little fond of medicine.
+                    </p>
+                </section>
+                <section class="section" id="skills">
+                    <h2 class="section-title">Hard Skills</h2>
+                    <ul>
+                        <li class="skills-list">Working with surgical instruments</li>
+                        <li class="skills-list">Performing various invasive and non-invasive procedures (for humans and
+                            animals)
+                        </li>
+                        <li class="skills-list">Providing first aid to people (there is a certificate of completion of
+                            the course)
+                        </li>
+                        <li class="skills-list">Interaction with chemicals, substances and laboratory facilities</li>
+                        <li class="skills-list">Basics HTML/CSS</li>
+                    </ul>
+                </section>
+                <section class="section" id="code">
+                    <h2 class="section-title">Code</h2>
+                    <pre class="pre-code">
+                                <code>
+                                    function countSheeps(arrayOfSheep) {
+                                        let counter = 0;
 
-                    <li class="contacts-list">
-                        <p>Github: IgnisVulpe</p>
-                    </li>
-                </ul>
-            </section>
-            <section class="section" id="about-me">
-                <h2 class="section-title">About me</h2>
-                <p>
-                    I live in Moscow, I am a 4th year undergraduate student at the Russian Chemical Technology University D.I. Mendeleev at the Faculty of Natural Sciences. Now I am interested in web development and therefore I am looking for a remote job in this area.Before that, I worked temporarily in a veterinary clinic as an assistant to a veterinarian, this is a kind of hobby. I am also a little fond of medicine.
-                </p>
-            </section>
-            <section class="section" id="skills">
-                <h2 class="section-title">Hard Skills</h2>
-                <ul>
-                    <li class="skills-list">Working with surgical instruments</li>
-                    <li class="skills-list">Performing various invasive and non-invasive procedures (for humans and animals)</li>
-                    <li class="skills-list">Providing first aid to people (there is a certificate of completion of the course)</li>
-                    <li class="skills-list">Interaction with chemicals, substances and laboratory facilities</li>
-                    <li class="skills-list">Basics HTML/CSS</li>
-                </ul>
-            </section>
-            <section class="section" id="code">
-                <h2 class="section-title">Code</h2>
-                <p>...</p>
-            </section>
-            <section class="section" id="work-experience">
-                <h2 class="section-title">Work Experience</h2>
-                <dl class="work-list">
-                    <dt>8 months in a veterinary clinic.</dt>
-                    <dd class="work-sublist">Assisted in surgeries, ultrasound / X-ray, at the therapist, performed various procedures (injections, infusion therapy, treatment and stitching of wounds, etc.), worked in a day hospital, prepared equipment (and animals) for operations. She also performed the functions of an administrator and kept records of medicines.</dd>
-                    <dt>3 months technical copywriter.</dt>
-                    <dd class="work-sublist">Created pages with information about products (gas chromatographs and their components) based on English-language official sources from the equipment manufacturer.</dd>
-                    <dt>Web Development.</dt>
-                    <dd class="work-sublist">No experience in Web Development.</dd>
-                </dl>
-            </section>
-            <section class="section" id="education">
-               <h2 class="section-title">Education</h2>
-                <p>Incomplete higher education. Undergraduate Russian Chemical Technology University D.I. Mendeleev at the Faculty of Natural Sciences.</p>
-            </section>
-            <section class="section" id="english">
-                <h2 class="section-title">English</h2>
-                <p>Entry level A1</p>
-            </section>
+                                        for (let i = 0; i < arrayOfSheep.length; i++) {
+                                            console.log(i + 1,"элемент массива arrayOfSheep равен",arrayOfSheep[i]);
+                                            if (arrayOfSheep[i] === true) {
+                                                console.log("Эелемент ",i + 1,"- ОВЦА!");
+                                                counter++;
+                                                console.log("Итого овец:", counter);
+                                            } else {
+                                                console.log("Эелемент ",i + 1,"- СБЕЖАЛА!");
+                                            }
+                                        }
+                                        return counter;
+                                      }
+                                </code>
+                            </pre>
+                </section>
+                <section class="section" id="work-experience">
+                    <h2 class="section-title">Work Experience</h2>
+                    <dl class="work-list">
+                        <dt>8 months in a veterinary clinic.</dt>
+                        <dd class="work-sublist">Assisted in surgeries, ultrasound / X-ray, at the therapist, performed
+                            various procedures (injections, infusion therapy, treatment and stitching of wounds, etc.),
+                            worked in a day hospital, prepared equipment (and animals) for operations. She also
+                            performed the functions of an administrator and kept records of medicines.
+                        </dd>
+                        <dt>3 months technical copywriter.</dt>
+                        <dd class="work-sublist">Created pages with information about products (gas chromatographs and
+                            their components) based on English-language official sources from the equipment
+                            manufacturer.
+                        </dd>
+                        <dt>Web Development.</dt>
+                        <dd class="work-sublist">No experience in Web Development.</dd>
+                    </dl>
+                </section>
+                <section class="section" id="education">
+                    <h2 class="section-title">Education</h2>
+                    <p>Incomplete higher education. Undergraduate Russian Chemical Technology University D.I. Mendeleev
+                        at the Faculty of Natural Sciences.</p>
+                </section>
+                <section class="section" id="english">
+                    <h2 class="section-title">English</h2>
+                    <p>Entry level A1</p>
+                </section>
+            </div>
         </main>
         <footer class="footer">
-            <div class="footer-container">
+            <div class="container-div-footer">
                 <div>
                     <p>© 2022</p>
                     <a href="https://github.com/IgnisVulpe" class="github-link">IgnisVulpe</a>
