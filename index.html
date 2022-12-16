@@ -7,7 +7,7 @@
     </head>
     <body class="body">
         <header class="header">
-            <div class="container">
+            <div class="container container-header">
                 <nav class="nav">
                     <ul>
                         <li>
@@ -42,28 +42,31 @@
             </div>
         </header>
         <main class="main">
-            <div class="container">
+            <div class="container main-container">
                 <section class="section-profile" id="profile">
                     <img src="assets/img/avatarr.jpg" alt="Аватар Дарьи" class="avatar">
                     <div class="title-profile">
                         <h1 class="section-mine-title">Kondrina Darya</h1>
                         <div id="rectangle"></div>
-                        <h3 class="section-subtitle">Junior Front-End Developer</h3>
+                        <h3 class="section-subtitle">Junior Front - End Developer</h3>
                     </div>
                 </section>
                 <section class="section" id="contacts">
                     <h2 class="section-title">Contacts</h2>
-                    <ul>
+                    <ul class="icon-svg">
                         <li class="contacts-list">
+                            <img id="icon-geo" src="assets/icons/icon_geo.svg" alt="Geolocation.">
                             <p>Glazov, Russia</p>
                         </li>
 
                         <li class="contacts-list">
-                            <p>Email: <a href="mailto:pochtaDasha@gmail.com" title="email">pochtaDasha@gmail.com</a></p>
+                            <img id="icon-msil" src="assets/icons/icon_mail.svg" alt="Mail.">
+                            <p>Email: <a href="mailto:pochtaDasha@gmail.com" title="email" id="mail">pochtaDasha@gmail.com</a></p>
                         </li>
 
                         <li class="contacts-list">
-                            <p>Github: <a href="https://github.com/IgnisVulpe" title="github">IgnisVulpe</a></p>
+                            <img id="icon-git" src="assets/icons/icon_git_logo.svg" alt="Github logo.">
+                            <p>Github: <a href="https://github.com/IgnisVulpe" title="github" id="git">IgnisVulpe</a></p>
                         </li>
                     </ul>
                 </section>
@@ -93,7 +96,7 @@
                 </section>
                 <section class="section" id="code">
                     <h2 class="section-title">Code</h2>
-                    <pre class="pre-code">
+                    <p class="pre-code">
                                 <code>
                                     function countSheeps(arrayOfSheep) {
                                         let counter = 0;
@@ -112,7 +115,7 @@
                                       }
                                     // example array: countSheeps([true, false, false, true, false, true, true, false, false, false, true]);
                                 </code>
-                            </pre>
+                            </p>
                 </section>
                 <section class="section" id="work-experience">
                     <h2 class="section-title">Work Experience</h2>
