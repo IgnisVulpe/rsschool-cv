@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>My CV</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="body">
+        <header class="header">
+            <div class="container container-header">
+                <nav class="nav">
+                    <ul>
+                        <li>
+                            <a href="#contacts" class="list-link">Contacts</a>
+                        </li>
+
+                        <li>
+                            <a href="#about-me" class="list-link">About me</a>
+                        </li>
+
+                        <li>
+                            <a href="#skills" class="list-link">Skills</a>
+                        </li>
+
+                        <li>
+                            <a href="#code" class="list-link">Code</a>
+                        </li>
+
+                        <li>
+                            <a href="#work-experience" class="list-link">Work experience</a>
+                        </li>
+
+                        <li>
+                            <a href="#education" class="list-link">Education</a>
+                        </li>
+
+                        <li>
+                            <a href="#courses" class="list-link">Courses</a>
+                        </li>
+
+                        <li>
+                            <a href="#english" class="list-link">English</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container main-container">
+                <section class="section-profile" id="profile">
+                    <img src="assets/img/avatarr.jpg" alt="Аватар Дарьи" class="avatar">
+                    <div class="title-profile">
+                        <h1 class="section-mine-title">Kondrina Darya</h1>
+                        <h3 class="section-subtitle">Junior Front - End Developer</h3>
+                    </div>
+                </section>
+                <section class="section" id="contacts">
+                    <h2 class="section-title">Contacts</h2>
+                    <ul class="icon-svg">
+                        <li class="contacts-list">
+                            <img id="icon-geo" class="icon" src="assets/icons/icon_geo.svg" alt="Geolocation.">
+                            <p class="contacts-item-text">Glazov, Russia</p>
+                        </li>
+
+                        <li class="contacts-list">
+                            <img class="icon"  id="icon-mail" src="assets/icons/icon_mail.svg" alt="Mail.">
+                            <p class="contacts-item-text">Email: <a href="mailto:pochtaDasha@gmail.com" title="email" id="mail">pochtaDasha@gmail.com</a></p>
+                        </li>
+
+                        <li class="contacts-list">
+                            <img id="icon-git" class="icon" src="assets/icons/icon_git_logo.svg" alt="Github logo.">
+                            <p class="contacts-item-text">Github: <a href="https://github.com/IgnisVulpe" title="github" id="git">IgnisVulpe</a></p>
+                        </li>
+                    </ul>
+                </section>
+                <section class="section" id="about-me">
+                    <h2 class="section-title">About me</h2>
+                    <p>
+                        I live in Moscow, I am a 4th year undergraduate student at the Russian Chemical Technology
+                        University D.I. Mendeleev at the Faculty of Natural Sciences. Now I am interested in web
+                        development and therefore I am looking for a remote job in this area.Before that, I worked
+                        temporarily in a veterinary clinic as an assistant to a veterinarian, this is a kind of hobby. I
+                        am also a little fond of medicine.
+                    </p>
+                </section>
+                <section class="section" id="skills">
+                    <h2 class="section-title">Hard Skills</h2>
+                    <ul class="skills-list">
+                        <li class="skills-list-item">Working with surgical instruments</li>
+                        <li class="skills-list-item">Performing various invasive and non-invasive procedures (for humans and
+                            animals)
+                        </li>
+                        <li class="skills-list-item">Providing first aid to people (there is a certificate of completion of
+                            the course)
+                        </li>
+                        <li class="skills-list-item">Interaction with chemicals, substances and laboratory facilities</li>
+                        <li class="skills-list-item">Basics HTML/CSS</li>
+                    </ul>
+                </section>
+                <section class="section" id="code">
+                    <h2 class="section-title">Code</h2>
+<pre class="pre-code">
+<code>
+function countSheeps(arrayOfSheep) {
+    let counter = 0;
+
+    for (let i = 0; i &lt; arrayOfSheep.length; i++) {
+        console.log(i + 1,"элемент массива arrayOfSheep равен",arrayOfSheep[i]);
+        if (arrayOfSheep[i] === true) {
+            console.log("Эелемент ",i + 1,"- ОВЦА!");
+            counter++;
+            console.log("Итого овец:", counter);
+        } else {
+            console.log("Эелемент ",i + 1,"- СБЕЖАЛА!");
+        }
+    }
+    return counter;
+  }
+// example array: countSheeps([true, false, false, true, false, true, true, false, false, false, true]);
+</code>
+</pre>
+                </section>
+                <section class="section" id="work-experience">
+                    <h2 class="section-title">Work Experience</h2>
+                    <dl class="work-list">
+                        <dt>8 months in a veterinary clinic.</dt>
+                        <dd class="work-sublist">Assisted in surgeries, ultrasound / X-ray, at the therapist, performed
+                            various procedures (injections, infusion therapy, treatment and stitching of wounds, etc.),
+                            worked in a day hospital, prepared equipment (and animals) for operations. She also
+                            performed the functions of an administrator and kept records of medicines.
+                        </dd>
+                        <dt>3 months technical copywriter.</dt>
+                        <dd class="work-sublist">Created pages with information about products (gas chromatographs and
+                            their components) based on English-language official sources from the equipment
+                            manufacturer.
+                        </dd>
+                        <dt>Web Development.</dt>
+                        <dd class="work-sublist">No experience in Web Development.</dd>
+                    </dl>
+                </section>
+                <section class="section" id="education">
+                    <h2 class="section-title">Education</h2>
+                    <p>Incomplete higher education. Undergraduate Russian Chemical Technology University D.I. Mendeleev
+                        at the Faculty of Natural Sciences.</p>
+                </section>
+                <section class="section" id="courses">
+                    <h2 class="section-title">Courses</h2>
+                    <ul>
+                        <li>JS/FE Pre-School 2022Q4</li>
+                    </ul>
+                </section>
+                <section class="section" id="english">
+                    <h2 class="section-title">English</h2>
+                    <p>Entry level A1</p>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container footer-container">
+                <div class="footer-sub-container">
+                    <p>© 2022</p>
+                    <a href="https://github.com/IgnisVulpe" class="github-link">IgnisVulpe</a>
+                </div>
+                <a href="https://rs.school/js/" class="rss"></a>
+            </div>
+        </footer>
+    </body>
+</html>
