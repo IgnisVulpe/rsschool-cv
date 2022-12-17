@@ -1,0 +1,371 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4d2323;
+}
+
+.header {
+    height: 90px;
+    background: linear-gradient(to bottom right, rgb(163, 213, 163), rgb(39, 79, 42));
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container-header {
+    height: 100%;
+}
+
+.nav {
+    height: 100%;
+    padding: 0 50px 0 0;
+}
+
+.nav > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+.list-link {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 50%;
+    padding: 15px;
+    position: relative;
+    font-size: 16px;
+}
+
+.section-title {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #A3D5A3;
+}
+
+#contacts::after {
+    content: "";
+    width: 95%;
+    height: 1px;
+    background-color: #E1C5A5;
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
+
+#about-me::after {
+    content: "";
+    width: 95%;
+    height: 1px;
+    background-color: #E1C5A5;
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
+
+#skills::after {
+    content: "";
+    width: 95%;
+    height: 1px;
+    background-color: #E1C5A5;
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
+
+#code::after {
+    content: "";
+    width: 95%;
+    height: 1px;
+    background-color: #E1C5A5;
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
+
+#work-experience::after {
+    content: "";
+    width: 95%;
+    height: 1px;
+    background-color: #E1C5A5;
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
+
+#education::after {
+    content: "";
+    width: 95%;
+    height: 1px;
+    background-color: #E1C5A5;
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
+
+.section-profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 30px 35px;
+    border-bottom: 25px double #e1c5a5;
+}
+
+.avatar {
+    border-radius: 40%;
+    width: 180px;
+    height: 210px;
+}
+
+.title-profile {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+}
+
+.section-mine-title {
+    position: relative;
+    padding: 0;
+    margin-bottom: 20px;
+    color: #274F2AFF;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 10px;
+    line-height: 50px;
+    word-spacing: 3px;
+}
+
+.section-mine-title::after {
+    content: "";
+    position: absolute;
+    background-color: #A3D5A3;
+    width: 286px;
+    height: 2px;
+    bottom: -19px;
+    left: 50%;
+    margin-left: -146px;
+}
+
+.section-subtitle {
+    margin-top: 20px;
+    margin-right: 5px;
+    color: #e1c5a5;
+    line-height: 50px;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+#contacts {
+    margin: 0;
+    /*width: calc(50% - 20px);*/
+    /*border-bottom: 1px solid #e1c5a5;*/
+}
+
+.contacts-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+    line-height: 1px;
+    margin-top: 8px;
+}
+
+.contacts-item-text {
+    margin-left: 0.25em;
+}
+
+.icon-svg {
+    position: relative;
+    padding: 0;
+    margin-bottom: 20px;
+    color: rgb(77, 35, 35);
+    font-size: 16px;
+    font-weight: 10;
+}
+
+.icon {
+    width: 32px;
+    height: 33px;
+    color: #A3D5A3;
+}
+
+
+#mail {
+    text-decoration: none;
+    color: #A3D5A3;
+}
+
+#git {
+    text-decoration: none;
+    color: #A3D5A3;
+}
+
+.skills-list-item::before {
+    content: "";
+    background-image: url(./assets/icons/icon-mark-triangle.svg);
+    width: 15px;
+    height: 15px;
+    background-size: 15px 15px;
+    position: absolute;
+    top: 4px;
+    left: -23px;
+}
+
+.skills-list {
+    list-style: none;
+    padding-left: 25px;
+}
+
+.skills-list-item {
+    position: relative;
+}
+
+.pre-code code {
+    display: block;
+    overflow-x: scroll;
+    overflow-y: auto;
+    max-height: 435px;
+    max-width: 666px;
+}
+
+.work-list > dt::before {
+    content: "";
+    background-image: url(./assets/icons/icon-mark-triangle.svg);
+    width: 15px;
+    height: 15px;
+    background-size: 15px 15px;
+    position: absolute;
+    top: 4px;
+    left: -23px;
+}
+
+.work-list > dt {
+    position: relative;
+}
+
+.work-list {
+    padding-left: 25px;
+}
+
+.work-sublist::before {
+    content: "";
+    background-image: url(./assets/icons/icon-mark-dot.svg);
+    width: 12px;
+    height: 12px;
+    background-size: 12px 12px;
+    position: absolute;
+    top: 6px;
+    left: -20px;
+}
+
+.work-sublist {
+    position: relative;
+}
+
+#courses > ul {
+    padding-left: 25px;
+}
+
+#courses li {
+    position: relative;
+    list-style: none;
+}
+
+#courses li::before {
+    content: "";
+    background-image: url(./assets/icons/icon-mark-triangle.svg);
+    width: 15px;
+    height: 15px;
+    background-size: 15px 15px;
+    position: absolute;
+    top: 4px;
+    left: -23px;
+}
+
+.footer {
+    padding: 0;
+    display: block;
+    background: linear-gradient(to bottom right, rgb(163, 213, 163), rgb(39, 79, 42));
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.github-link {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.footer-sub-container {
+    display: block;
+}
+
+.footer-sub-container > p {
+    display: inline-block;
+}
+
+.footer-sub-container > a {
+    display: inline-block;
+}
+
+.rss {
+    background-image: url(./assets/icons/icon_rs_school_js.svg);
+    width: 120px;
+    height: 45px;
+    background-size: contain;
+    padding: 0 50px 0 0;
+}
+
+@media (max-width: 1000px) {
+    .section {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1440px) {
+    .footer-container {
+        padding: 0 50px;
+    }
+}
