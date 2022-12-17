@@ -256,6 +256,14 @@ html {
     position: relative;
 }
 
+.pre-code code {
+    display: block;
+    overflow-x: scroll;
+    overflow-y: auto;
+    max-height: 435px;
+    max-width: 666px;
+}
+
 .work-list > dt::before {
     content: "";
     background-image: url(./assets/icons/icon-mark-triangle.svg);
@@ -350,7 +358,7 @@ html {
     padding: 0 50px 0 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .section {
         width: 100%;
     }
